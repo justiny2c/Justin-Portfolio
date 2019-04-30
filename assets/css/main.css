@@ -3649,7 +3649,9 @@ body.is-menu-visible #menu {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background-image: url("../../backdrop.jpg");
+  /* background-image: url("../../backdrop.jpg"); */
+  background-image: url("../../justin.jpg");
+  background-size: 100%;
   /* background: black; */
 }
 
@@ -4057,7 +4059,7 @@ body.is-mobile.landing .wrapper.style4 {
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 
-  background-image: url("../../backdrop.jpg");
+  background-image: url("../../justin.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
