@@ -3649,7 +3649,7 @@ body.is-menu-visible #menu {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background-image: url("HTML-template/images/backdrop.jpg");
+  background-image: url("../../backdrop.jpg");
   /* background: black; */
 }
 
