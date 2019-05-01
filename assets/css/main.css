@@ -2362,7 +2362,7 @@ ul.actions.fit.stacked {
   ul.actions:not(.fixed) li input[type="button"],
   ul.actions:not(.fixed) li button,
   ul.actions:not(.fixed) li .button {
-    width: 100%;
+    width: 60%;
   }
 
   ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -2563,7 +2563,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 button.primary,
 .button.primary {
-  background-color: #ed4933;
+  background-color: #3f78ce;
   box-shadow: none !important;
   color: #ffffff !important;
 }
@@ -2573,7 +2573,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #ef5e4a !important;
+  background-color: #2e2e2e !important;
 }
 
 input[type="submit"].primary:active,
@@ -3664,7 +3664,7 @@ body.is-menu-visible #menu {
   -ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
   transition: transform 0.5s ease, opacity 0.5s ease;
   display: inline-block;
-  font-size: 1.75em;
+  font-size: 2.25em;
   opacity: 1;
   padding: 0.35em 1em;
   position: relative;
