@@ -238,7 +238,7 @@ a {
   -webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   -ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
   transition: color 0.2s ease, border-bottom-color 0.2s ease;
-  border-bottom: dotted 1px;
+  border-bottom: solid 1px;
   color: inherit;
   text-decoration: none;
 }
@@ -1871,9 +1871,9 @@ header h6 + p {
   font-size: 0.9em;
 }
 
-header.major {
+/* header.major {
   margin: 0 0 3.5em 0;
-}
+} */
 
 header.major h2,
 header.major h3,
@@ -4065,4 +4065,29 @@ body.is-mobile.landing .wrapper.style4 {
 
 body.is-mobile.landing #footer {
   background-color: #1d242a;
+}
+
+.major {
+  width: 50%;
+  margin-left: 25%;
+}
+.major p {
+  margin-bottom: 0;
+}
+
+.major ul {
+  text-align: left;
+}
+
+.major ul li {
+  font-size: 0.8rem;
+}
+.project-title {
+  font-size: 0.62rem;
+  margin: 0 0 1rem 0;
+}
+.project-description {
+  text-align: left;
+  font-size: 0.75rem;
+  color: white;
 }
