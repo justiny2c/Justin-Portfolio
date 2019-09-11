@@ -2736,7 +2736,7 @@ button:disabled,
   }
 
   .features li:first-child {
-    border-top: 0;
+    border-top: 1;
   }
 }
 
@@ -4133,6 +4133,10 @@ body.is-mobile.landing #footer {
   border: 2px solid black;
   /* color: white; */
   background: #1d242a;
+}
+
+.tech-stacks p:hover {
+  background: #5b94f7
 }
 @media screen and (max-width: 736px) {
   .tech-stacks p {
