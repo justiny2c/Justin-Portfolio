@@ -245,6 +245,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
+  color: #5b94f7;
 }
 
 strong,
@@ -1882,7 +1883,7 @@ header.major h5,
 header.major h6 {
   border-bottom: solid 2px #fff;
   display: inline-block;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
   position: relative;
 }
 
@@ -1901,11 +1902,11 @@ header.major p {
   top: 0;
 }
 
-@media screen and (max-width: 736px) {
+/* @media screen and (max-width: 736px) {
   header.major {
     margin: 0 0 2em 0;
   }
-}
+} */
 
 @media screen and (max-width: 980px) {
   header br {
@@ -2634,7 +2635,9 @@ button:disabled,
   display: block;
   position: relative;
   text-align: left;
-  width: 50%;
+  width: 48%;
+  margin: 0.5rem;
+  border: 2px dashed #1d242a;
 }
 
 .features li:nth-child(1) {
@@ -3047,7 +3050,7 @@ button:disabled,
 }
 
 .wrapper.style3 {
-  background-color: #3f78ce;
+  /* background-color: #3f78ce; */
   color: #d3d4e4;
 }
 
@@ -3649,7 +3652,7 @@ body.is-menu-visible #menu {
   overflow: hidden;
   position: relative;
   text-align: center;
-  background-image: url('../../justin3.jpeg');
+  background-image: url('../../header.jpeg');
   background-size: 100%;
 }
 
@@ -4057,7 +4060,7 @@ body.is-mobile.landing .wrapper.style4 {
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
 
-  background-image: url('../../justin3.jpeg');
+  background-image: url('../../header.jpeg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4070,6 +4073,10 @@ body.is-mobile.landing #footer {
 .major {
   width: 50%;
   margin-left: 25%;
+}
+
+.major img {
+  width: 35%;
 }
 .major p {
   margin-bottom: 0;
@@ -4090,4 +4097,31 @@ body.is-mobile.landing #footer {
   text-align: left;
   font-size: 0.75rem;
   color: white;
+}
+
+.tech-stacks {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 736px) {
+  .tech-stacks {
+    flex-flow: column;
+  }
+}
+
+.tech-stacks p {
+  font-size: 0.7rem;
+  padding: 0 0.5rem;
+  margin: 1rem;
+  border: 2px solid black;
+  /* color: white; */
+  background: #1d242a;
+}
+@media screen and (max-width: 736px) {
+  .tech-stacks p {
+    margin: 0.2rem;
+  }
 }
