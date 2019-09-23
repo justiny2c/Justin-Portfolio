@@ -4133,10 +4133,11 @@ body.is-mobile.landing #footer {
   border: 2px solid black;
   /* color: white; */
   background: #1d242a;
+  width: 15%;
 }
 
 .tech-stacks p:hover {
-  background: #5b94f7
+  background: #5b94f7;
 }
 @media screen and (max-width: 736px) {
   .tech-stacks p {
