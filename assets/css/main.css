@@ -4142,6 +4142,7 @@ body.is-mobile.landing #footer {
 @media screen and (max-width: 736px) {
   .tech-stacks p {
     margin: 0.2rem;
+    width: 100%;
   }
 }
 
